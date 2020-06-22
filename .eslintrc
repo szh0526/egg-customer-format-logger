@@ -1,0 +1,29 @@
+{
+  "extends": "eslint-config-egg",
+  "rules": {
+    "arrow-parens":0,
+    "generator-star-spacing": "off",
+    "class-methods-use-this":[0],
+    "semi": 0,//语句强制分号结尾
+    "comma-dangle": "off",//对象字面量项尾不能有逗号,
+    "indent": ["off"],
+    "no-tabs": 0,
+    "no-trailing-spaces": 0,
+    "no-mixed-spaces-and-tabs": 0,//禁止混用tab和空格
+    "linebreak-style": "off",
+    "no-console": "off",
+    "no-def": "off",
+    "no-debugger":"off",
+    "max-len": 0,
+    "no-alert": 0,
+    "global-require": 0,
+    "no-restricted-syntax": 0,
+    "no-useless-constructor": "off",
+    "no-unused-vars": 0,
+    "no-var": 0,
+    "eol-last": "off",
+    "quotes":[0,"double"],
+    "space-before-function-paren": [0, {"anonymous": "always", "named": "never"}], //函数定义时括号前的空格
+    "eqeqeq":0
+  }
+}
