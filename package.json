@@ -1,6 +1,6 @@
 {
   "name": "egg-customer-format-logger",
-  "version": "1.0.51",
+  "version": "1.0.55",
   "description": "Customize the formatted log",
   "main": "dist/app.js",
   "types": "dist/app.d.ts",

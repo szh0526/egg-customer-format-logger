@@ -3,7 +3,7 @@
 import { Context } from "egg";
 
 const moment = require('moment')
-const { serviceIPAddress, clientRealIPAddress, clientIPAddress, clientRealReqDomain, loggerDelimiter } = require('./utils')
+const { serviceIPAddress, clientRealIPAddress, clientRealReqDomain, loggerDelimiter } = require('./utils')
 const util = require('util')
 const FileTransport = require('egg-logger').FileTransport;
 
